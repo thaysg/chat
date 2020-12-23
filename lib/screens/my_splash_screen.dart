@@ -1,8 +1,14 @@
-import 'package:chat/socketIOChat/login_screen.dart';
+import 'package:chat/screens/login_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:splashscreen/splashscreen.dart';
 
-class MySplashScreen extends StatelessWidget {
+class MySplashScreen extends StatefulWidget {
+  static const String ROUTE_ID = 'my_splashScreen';
+  @override
+  _MySplashScreenState createState() => _MySplashScreenState();
+}
+
+class _MySplashScreenState extends State<MySplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -10,7 +16,7 @@ class MySplashScreen extends StatelessWidget {
         children: [
           SplashScreen(
             seconds: 3,
-            backgroundColor: Color(0xffF52828),
+            backgroundColor: Color(0xffC71A4A),
             navigateAfterSeconds: LoginScreen(),
             loaderColor: Colors.transparent,
           ),
