@@ -1,4 +1,4 @@
-import 'package:chat/screens/my_splash_screen.dart';
+import 'package:chat/screens/splash_screen/my_splash_screen.dart';
 
 class Routes {
   static routes() {

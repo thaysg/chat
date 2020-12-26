@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Chat',
       theme: ThemeData(
-          primaryColor: Color(0xffC71A4A), accentColor: Color(0xffEED8F0)),
+          primaryColor: Color(0xffC71A4A), accentColor: Color(0xffFAD7D4)),
       routes: Routes.routes(),
       initialRoute: Routes.initScreen(),
     );

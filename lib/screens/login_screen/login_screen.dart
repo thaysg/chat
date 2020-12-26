@@ -1,5 +1,5 @@
-import 'package:chat/screens/home_screen.dart';
-import 'package:chat/screens/signup_screen.dart';
+import 'package:chat/screens/home_screen/home_screen.dart';
+import 'package:chat/screens/signup_screen/signup_screen.dart';
 import 'package:flutter/material.dart';
 
 class LoginScreen extends StatelessWidget {
