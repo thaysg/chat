@@ -15,7 +15,7 @@ class _MySplashScreenState extends State<MySplashScreen> {
       body: Stack(
         children: [
           SplashScreen(
-            seconds: 3,
+            seconds: 2,
             backgroundColor: Color(0xffC71A4A),
             navigateAfterSeconds: LoginScreen(),
             loaderColor: Colors.transparent,

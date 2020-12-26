@@ -21,6 +21,8 @@ class _CategorySelectorState extends State<CategorySelector> {
             return GestureDetector(
               onTap: () {
                 setState(() {
+                  Navigator.pushReplacementNamed(
+                      context, '/${categories[index]}');
                   selectedIndex = index;
                 });
               },

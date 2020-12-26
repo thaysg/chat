@@ -4,6 +4,7 @@ import 'package:chat/screens/home_screen/components/favorites_contacts.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatefulWidget {
+  static const String ROUTE_ID = 'home_screen';
   @override
   _HomeScreenState createState() => _HomeScreenState();
 }

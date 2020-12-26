@@ -169,7 +169,7 @@ class _ChatScreenState extends State<ChatScreen> {
             Expanded(
               child: Container(
                   decoration: BoxDecoration(
-                      color: Colors.white,
+                      color: Colors.grey[100],
                       borderRadius: BorderRadius.only(
                           topLeft: Radius.circular(50),
                           topRight: Radius.circular(50))),

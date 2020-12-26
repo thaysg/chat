@@ -2,7 +2,13 @@ import 'package:chat/screens/home_screen/home_screen.dart';
 import 'package:chat/screens/signup_screen/signup_screen.dart';
 import 'package:flutter/material.dart';
 
-class LoginScreen extends StatelessWidget {
+class LoginScreen extends StatefulWidget {
+  static const String ROUTE_ID = 'login_screen';
+  @override
+  _LoginScreenState createState() => _LoginScreenState();
+}
+
+class _LoginScreenState extends State<LoginScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

@@ -12,7 +12,7 @@ class _ContactsViewState extends State<ContactsView> {
     return Expanded(
       child: Container(
         decoration: BoxDecoration(
-            color: Colors.white,
+            color: Colors.grey[100],
             borderRadius: BorderRadius.only(
                 topLeft: Radius.circular(50), topRight: Radius.circular(50))),
         child: ClipRRect(
@@ -31,7 +31,7 @@ class _ContactsViewState extends State<ContactsView> {
                 margin: EdgeInsets.fromLTRB(10, 10, 10, 5),
                 padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
                 decoration: BoxDecoration(
-                    color: Color(0xffD1E8FF),
+                    color: Colors.grey[200],
                     borderRadius: BorderRadius.circular(30)),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
