@@ -18,8 +18,9 @@ class MyApp extends StatelessWidget {
           primaryColor: Color(0xffC71A4A), accentColor: Color(0xffFAD7D4)),
       /* routes: Routes.routes(),
       initialRoute: Routes.initScreen(), */
+      home: MySplashScreen(),
       routes: {
-        '/': (context) => MySplashScreen(),
+        /* '/': (context) => MySplashScreen(), */
         '/Chat': (context) => HomeScreen(),
         '/Contatos': (context) => ContactsScreen()
       },

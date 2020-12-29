@@ -1,20 +1,17 @@
-import 'package:chat/screens/contact_screen/contacts_screen.dart';
 import 'package:chat/screens/home_screen/home_screen.dart';
-import 'package:chat/screens/login_screen/login_screen.dart';
-import 'package:chat/screens/splash_screen/my_splash_screen.dart';
 
 class Routes {
   static routes() {
     return {
-      MySplashScreen.ROUTE_ID: (context) => MySplashScreen(),
-      LoginScreen.ROUTE_ID: (context) => LoginScreen(),
+      //MySplashScreen.ROUTE_ID: (context) => MySplashScreen(),
+      //LoginScreen.ROUTE_ID: (context) => LoginScreen(),
       HomeScreen.ROUTE_ID: (context) => HomeScreen(),
-      ContactsScreen.ROUTE_ID: (context) => ContactsScreen()
+      //ContactsScreen.ROUTE_ID: (context) => ContactsScreen()
     };
   }
 
   static initScreen() {
-    return MySplashScreen.ROUTE_ID;
+    return HomeScreen.ROUTE_ID;
   }
 }
 

@@ -2,7 +2,7 @@ import 'package:chat/screens/contact_screen/components/add_contact.dart';
 import 'package:flutter/material.dart';
 
 class ContactsScreen extends StatefulWidget {
-  static const String ROUTE_ID = 'contacts_screen';
+  //static const String ROUTE_ID = 'contacts_screen';
   @override
   _ContactsScreenState createState() => _ContactsScreenState();
 }

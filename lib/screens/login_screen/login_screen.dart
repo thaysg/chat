@@ -3,12 +3,19 @@ import 'package:chat/screens/signup_screen/signup_screen.dart';
 import 'package:flutter/material.dart';
 
 class LoginScreen extends StatefulWidget {
-  static const String ROUTE_ID = 'login_screen';
+  //static const String ROUTE_ID = 'login_screen';
   @override
   _LoginScreenState createState() => _LoginScreenState();
 }
 
 class _LoginScreenState extends State<LoginScreen> {
+  @override
+  // ignore: must_call_super
+  void initState() {
+    // ignore: todo
+    // TODO: implement initState
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
